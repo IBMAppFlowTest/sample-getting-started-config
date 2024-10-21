@@ -5,7 +5,12 @@ version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
   version: ""
+
+  # configure Java version
   java: 8
+
+  # configure endpoints
+  endpoints: public
   
   # number of instances
   instances:
@@ -29,8 +34,3 @@ app:
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"
       
-  # observability:
-  #  cloudwatch:   
-  #    arn: arn:aws:logs:region:account-id:destination:destination_name
-  #    logGroup: myLogGroup
-  #    region: us-east-1
