@@ -4,7 +4,7 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: ""
+  version: "latest version"
 
   # configure endpoints
   endpoints: public
@@ -19,7 +19,7 @@ app:
     
   resources:
     # max cpu. memory limit is based on cpu value: 1:3 memory ratio, e.g. 1 cpu == 3 gb
-    cpu: 2
+    cpu: 3
 
   # List of environment variables that are set for the application
   env:
