@@ -8,6 +8,7 @@ app:
 
   # configure endpoints
   endpoints: public
+  startupTimeout: 40
 
   # number of instances
   instances:
