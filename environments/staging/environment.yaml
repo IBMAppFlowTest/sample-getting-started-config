@@ -31,5 +31,5 @@ app:
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"
 
-  # Application Startup Timeout mpHealth
+  # Application Startup Timeout - mpHealth
   startupTimeout: 30
